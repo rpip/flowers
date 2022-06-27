@@ -1,0 +1,16 @@
+{
+    "status": "active",
+    "photos": [],
+    "last_login": "2020-09-07T21:11:23Z",
+    "mfa_enabled": false,
+    "email": "hello@flowers.code",
+    "creation_date": "2020-06-14T15:28:24Z",
+    "email_verified": "true",
+    "user_id": "9e71bd56-2a8b-4e92-ab71-bc2ff18f41bc",
+    "points_earned": 100,
+    "last_email_sent": {
+        "date": "2020-09-26T05:38:15Z",
+        "type": "action-required"
+    },
+    "type": "user"
+}

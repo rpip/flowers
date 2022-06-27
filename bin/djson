@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+# Outputs raw JSON data from a DynamoDB JSON data
+
+import sys
+
+import json
+from dynamodb_json import json_util as djson
+
+if __name__ == "__main__":
+    if not sys.stdin.isatty():
+        data = sys.stdin.read()
+        converted_data = djson.loads(data)
+        print(json.dumps(converted_data))

@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+marshmallow = "*"
+boto3 = "*"
+dynamorm = "*"
+pyjwt = "*"
+bcrypt = "*"
+haikunator = "*"
+
+[dev-packages]
+black = "*"
+pre-commit = "*"
+flake8 = "*"
+coverage = "*"
+environs = "*"
+ipython = "*"
+dynamodb-json = "*"
+pytest = "*"
+
+[requires]
+python_version = "3.9"
